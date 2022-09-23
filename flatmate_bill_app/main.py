@@ -1,5 +1,5 @@
 from flat import Bill, Flatmate
-from report import PdfReport
+from report import PdfReport, FileSharer
 
 if __name__ == "__main__":
 
@@ -21,4 +21,7 @@ if __name__ == "__main__":
 
     pdf_report = PdfReport(filename=f"{period} report.pdf")
     pdf_report.generate(flatmate1, flatmate2, the_bill)
+
+    file_sharer = FileSharer(pdf_report.filename)
+    print(file_sharer.share())
 
