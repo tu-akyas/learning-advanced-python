@@ -1,0 +1,11 @@
+Title: Paint With Math
+
+Description:
+An app that allows the user to provide origin coordinates, dimensions and the colour of
+a rectangle or square. The program produces an image file canvas with the shapes provided
+by the user drawn in it.
+
+Objects:
+Canvas      -> length, width, color, create(path)
+Square      -> x, y, side, color, draw(canvas)
+Rectangle   -> x, y, length, width, color, draw(canvas)

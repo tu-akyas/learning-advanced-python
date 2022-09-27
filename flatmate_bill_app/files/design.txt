@@ -6,6 +6,6 @@ returns how much each flatmate have to pay.
 It also generates a PDF report with flatmate name, bill period and amount need to be paid by each.
 
 Objects:
-Bill -> amount, period
-Flatmate -> name, days_stayed, pays(bill),
-PdfReport -> filename, generate(flatmate1, flatmate2, bill)
+Bill        -> amount, period
+Flatmate    -> name, days_stayed, pays(bill),
+PdfReport   -> filename, generate(flatmate1, flatmate2, bill)
