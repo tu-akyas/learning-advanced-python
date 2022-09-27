@@ -1,4 +1,4 @@
-#A bout
+# About
 This application allows users to enter the size of a canvas and size, colour, starting position of 
 shapes (Square or Rectangle). Based on the user input respective shapes are drawn on the canvas and it is 
 saves as an image file.
