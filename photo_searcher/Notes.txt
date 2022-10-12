@@ -1,0 +1,17 @@
+This my personal notes from the tutorial to understand about Kivy
+
+We are using Kivy here.
+
+There are 4 objects in kivy library.
+
+1. App
+    - An app as the whole application
+2. Screen Manager
+    - Inbuilt manager for managing screen usually we dont edit unless needed
+3. Screen
+    - Need to write as many screen class as we desire to have in our App. Example login page is a screen and after login
+      A screen to be displayed is another one.
+4. Widgets
+    - Like buttons, Textinput, Image, Dropdown etc.
+
+We have Classes for all the above in Kivy Library
