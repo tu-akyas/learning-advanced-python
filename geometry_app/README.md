@@ -6,7 +6,7 @@ Finally, the program says if the guess was right or not.
 After the guessing is completed, Rectangle and the points are drawn using Python's turtle library
 
 
-##Credits
+## Credits
 Based on the learnings from https://www.udemy.com/course/the-python-pro-course/learn/lecture/26701418
 
 
