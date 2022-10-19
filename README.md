@@ -7,3 +7,18 @@ by Ardit Sulce
 - https://www.udemy.com/course/the-python-pro-course/
 
 All the works in this repo are based on my learnings of the above mentioned course
+
+# Repo Contents
+The above-mentioned course teaches Python concept with 10 different projects. 
+Every folder/directory in this repository is one project and each of them have its own README files with details 
+of the respective projects. Below are the projects that have been completed. 
+
+1. Flatmate bill (CLI Application)
+2. Geometry App (CLI)
+3. Paint with Math (CLI)
+4. Photo Searcher - An introduction to Kivy (UI with Kivy)
+5. Webcam Photo Sharing (UI app using Kivy)
+
+
+This repo will be updated as I complete one project.
+
