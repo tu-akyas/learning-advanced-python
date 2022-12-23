@@ -1,0 +1,2 @@
+Wb scraping is the way to get data from the web page
+we can use python to do that. Now here we are using timeanddate.com/weather webpage
