@@ -19,7 +19,7 @@ of the respective projects. Below are the projects that have been completed.
 4. Photo Searcher - An introduction to Kivy (UI with Kivy)
 5. Webcam Photo Sharing (UI app using Kivy)
 6. Flatmate bill web application with Flask (Extension of "1.Flatmate bill")
-7. Calories App
+7. Calories App with webscrapping (Web application using Flask)
 
 
 This repo will be updated as I complete one project.
