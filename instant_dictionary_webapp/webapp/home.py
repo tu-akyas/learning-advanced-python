@@ -1,13 +1,24 @@
 import justpy as jp
+from instant_dictionary_webapp.webapp import layout
 
 
 class Home:
     path = '/home'
 
-    def serve(self):
+    @classmethod
+    def serve(cls, req):
         wp = jp.QuasarPage(tailwind=True)
-        div = jp.Div(
+
+        lay = layout.DefaultLayout(
             a=wp,
+        )
+
+        container = jp.QPageContainer(
+            a=lay
+        )
+
+        div = jp.Div(
+            a=container,
             classes="bg-gray-200 h-screen"
         )
         jp.Div(
@@ -22,3 +33,5 @@ class Home:
         )
 
         return wp
+
+
