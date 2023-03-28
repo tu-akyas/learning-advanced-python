@@ -1,9 +1,10 @@
 import justpy as jp
 from instant_dictionary_webapp import definition
 from instant_dictionary_webapp.webapp import layout
+from instant_dictionary_webapp.webapp import page
 
 
-class Dictionary:
+class Dictionary(page.Page):
     path = '/dictionary'
 
     @classmethod
@@ -65,5 +66,5 @@ class Dictionary:
 
     @staticmethod
     def get_definition(widget, msg):
-        defined = definition.Definition(widget.value).get()
+        defined = definition.Definition(widget.obj).get()
         widget.outputdiv.text = " ".join(defined)

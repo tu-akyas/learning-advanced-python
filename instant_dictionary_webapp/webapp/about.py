@@ -1,24 +1,22 @@
 import justpy as jp
 from instant_dictionary_webapp.webapp import layout
+from instant_dictionary_webapp.webapp import page
 
 
-class About:
+class About(page.Page):
     path = "/about"
 
     @classmethod
-    def serve(cls):
+    def serve(cls, req):
         wp = jp.QuasarPage(tailwind=True)
         lay = layout.DefaultLayout(a=wp)
         container = jp.QPageContainer(
             a=lay,
             classes="bg-gray-200 h-screen"
         )
+
         div = jp.Div(
             a=container,
-            classes="bg-gray-200 h-screen"
-        )
-        div = jp.Div(
-            a=wp,
             classes="bg-gray-200 h-screen"
         )
         jp.Div(

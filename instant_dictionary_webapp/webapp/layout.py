@@ -68,7 +68,7 @@ class DefaultLayout(jp.QLayout):
 
     @staticmethod
     def move_drawer(widget, msg):
-        if widget.drawer.value:
-            widget.drawer.value = False
+        if widget.drawer.obj:
+            widget.drawer.obj = False
         else:
-            widget.drawer.value = True
+            widget.drawer.obj = True
