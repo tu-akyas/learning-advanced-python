@@ -21,7 +21,8 @@ of the respective projects. Below are the projects that have been completed.
 6. Flatmate bill web application with Flask (Extension of "1.Flatmate bill")
 7. Calories App with webscrapping (Web application using Flask)
 8. Automated Emails - NewsFeed via email
-9. 
+9. Instant Dictionary - WebApp
+10. Instant Dictionary - API
 
 
 This repo will be updated as I complete one project.

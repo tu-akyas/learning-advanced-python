@@ -3,6 +3,8 @@ from instant_dictionary_webapp import definition
 from instant_dictionary_webapp.webapp import layout
 from instant_dictionary_webapp.webapp import page
 
+import requests
+
 
 class Dictionary(page.Page):
     path = '/dictionary'
@@ -63,8 +65,13 @@ class Dictionary(page.Page):
 
         return wp
 
-
     @staticmethod
     def get_definition(widget, msg):
-        defined = definition.Definition(widget.obj).get()
-        widget.outputdiv.text = " ".join(defined)
+
+        req = requests.get(f"http://localhost:8000/api?w={widget.value}")
+        data = req.json()
+
+        widget.outputdiv.text = " ".join(data['definition'])
+
+        # defined = definition.Definition(widget.obj).get()
+        # widget.outputdiv.text = " ".join(defined)
