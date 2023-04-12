@@ -9,7 +9,7 @@ by Ardit Sulce
 All the works in this repo are based on my learnings of the above mentioned course
 
 # Repo Contents
-The above-mentioned course teaches Python concept with 10 different projects. 
+The above-mentioned course teaches Python concept with different projects. 
 Every folder/directory in this repository is one project and each of them have its own README files with details 
 of the respective projects. Below are the projects that have been completed. 
 
@@ -23,6 +23,9 @@ of the respective projects. Below are the projects that have been completed.
 8. Automated Emails - NewsFeed via email
 9. Instant Dictionary - WebApp
 10. Instant Dictionary - API
+11. Working with database
+    1. It is not an application, but a section that helped to learn h about working with SQL database using Python
+12. 
 
 
 This repo will be updated as I complete one project.
