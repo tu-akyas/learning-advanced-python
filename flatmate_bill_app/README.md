@@ -1,5 +1,5 @@
 # About
-Let us assumes there are 2 people living in a flat and they want to share the rent amount based on 
+Let us assume there are 2 people living in a flat and they want to share the rent amount based on 
 the number of days stayed instead of sharing equally.
 
 This application is the solution for above stated problem. It is build with Object Oriented Programming by using
