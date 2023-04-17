@@ -63,7 +63,7 @@ class Weather:
 
 
 if __name__ == "__main__":
-    apikey = "41c98c36707facfa4529439f63fcc2a2"
+    apikey = "get your own secret key"
     weather = Weather(apikey=apikey, city="Hongkong")
     pprint.pprint(weather.next_12h())
     pprint.pprint(weather.next_12h_simplified())
