@@ -25,8 +25,11 @@ of the respective projects. Below are the projects that have been completed.
 10. Instant Dictionary - API
 11. Working with database
     1. It is not an application, but a section that helped to learn h about working with SQL database using Python
-12. 
+12. Cinema Booking App
+
+### 13. Bonus Project
+- Creating a Weather Forecast Package
 
 
-This repo will be updated as I complete one project.
+Every folder is one project.
 
